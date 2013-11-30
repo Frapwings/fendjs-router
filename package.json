@@ -1,0 +1,38 @@
+{
+  "name": "fendjs-router",
+  "description": "Router for Fend.js",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Frapwings/fendjs-router.git"
+  },
+  "author": "kazupon (kazuya kawaguchi) <k.kawaguchi@frapwings.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Frapwings/fendjs-router/issues"
+  },
+  "keywords": [
+    "router",
+    "route",
+    "routing"
+  ],
+  "dependencies": {
+    "fendjs-route": "~0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*",
+    "component": "~0.18.0",
+    "mocha-lcov-reporter": "0.0.1",
+    "jscoverage": "~0.3.8",
+    "mocha-phantomjs": "~3.1.6",
+    "coveralls": "~2.5.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}

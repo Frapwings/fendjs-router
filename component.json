@@ -1,0 +1,22 @@
+{
+  "name": "fendjs-router",
+  "repo": "Frapwings/fendjs-router",
+  "description": "Router for Fend.js",
+  "version": "0.0.0",
+  "keywords": [
+    "router",
+    "route",
+    "routing"
+  ],
+  "dependencies": {
+    "Frapwings/fendjs-route": "*"
+  },
+  "development": {
+    "techjacker/expect.js": "*"
+  },
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ],
+  "remotes": []
+}
