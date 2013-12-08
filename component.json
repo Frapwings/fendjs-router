@@ -2,13 +2,14 @@
   "name": "fendjs-router",
   "repo": "Frapwings/fendjs-router",
   "description": "Router for Fend.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "keywords": [
     "router",
     "route",
     "routing"
   ],
   "dependencies": {
+    "visionmedia/debug": "*",
     "Frapwings/fendjs-route": "*"
   },
   "development": {
@@ -18,5 +19,6 @@
   "scripts": [
     "index.js"
   ],
+  "main": "index.js",
   "remotes": []
 }

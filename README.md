@@ -18,17 +18,18 @@ $ npm install fendjs-router
 $ component install Frapwings/fendjs-router
 ```
 
-# Example
-
-TODO:
-
 # API
 
-TODO:
+## Router()
+
+Initialize a new Router
+
+## Router#route
+
+Route `method`, `path`, and one or more callbacks.
 
 # Testing
 
-TODO:
 ```
 $ npm install
 $ make test

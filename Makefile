@@ -31,4 +31,4 @@ clean:
 	@rm -f ./test/build.js
 	@rm -f ./coverage.html
 
-.PHONY: clean test
+.PHONY: test test-phantom test-cov test-coveralls lib-cov clean
